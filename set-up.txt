@@ -1,0 +1,20 @@
+1. make '.env' file
+
+
+
+2. enter following data in .env file
+
+REACT_APP_PINATA_KEY = "<pinata key>"
+REACT_APP_PINATA_SECRET = "<pinata secret>"
+
+
+3. npm install
+
+
+4. deploy script only ONCE by running following command 
+
+npx hardhat run --network goerli scripts/deploy.js
+
+
+
+5. npm start
