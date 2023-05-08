@@ -1,4 +1,4 @@
-import cflogo from '../public/cflogo.png';
+import aqlogo from '../public/Arq-logo.png';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 import { Form, Nav, Navbar, Button, Dropdown } from 'react-bootstrap';
@@ -12,7 +12,7 @@ const NavBar = ({ web3Handler, account }) => {
         <div className="navbar-body">
             <Navbar variant="dark" className="navbar" fixed="top" expand="lg">
                 <Navbar.Brand as={Link} to="/">
-                    <img src={cflogo} alt="" className="cflogo" />
+                    <img src={aqlogo} alt="" className="cflogo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

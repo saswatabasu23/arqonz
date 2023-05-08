@@ -10,7 +10,7 @@ export class Footer extends React.Component {
             <div className="row">
                 <div className="col">
                     <img src={cflogo} alt="" className="footerlogo"/> 
-                    <h4 className="footer-brand">CryptoFlow</h4>
+
                 </div>
                 <div className="footer-right">
                     <div className="col">
@@ -35,7 +35,7 @@ export class Footer extends React.Component {
             <hr />
             <div className="row">
                 <p className="col" id="footer-bottom">
-                    <p>&copy;{new Date().getFullYear()} CryptoFlow, Inc. All rights reserved</p>
+
                     <p>T&C</p>
                     <p>Privacy Policy</p>
                 </p>
